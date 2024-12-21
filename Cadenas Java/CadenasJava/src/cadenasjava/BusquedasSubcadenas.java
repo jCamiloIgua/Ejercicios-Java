@@ -24,6 +24,10 @@ public class BusquedasSubcadenas {
         System.out.println("Buscar la letra O con la posicion");
         System.out.println("La letra O de gremory esta: " + cadena1.indexOf("o"));
         System.out.println("La letra de la posicion 9 es : " + cadena1.charAt(9));
+        
+        //Si no se encuentra una subcadena devuelve -1, si funciona seria 0
+        var indiceFixed = cadena1.lastIndexOf("Hola");
+        System.out.println("indiceFixed = " + indiceFixed);
        
     }
     
