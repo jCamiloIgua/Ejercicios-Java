@@ -31,5 +31,19 @@ public class LeerTiposDatos {
         var nombre = console.nextLine();
         System.out.println("nombre = " + nombre);
         
+        
+        //Conversion  de datos
+        System.out.println("Proporsionar un valor entero: ");
+        var enteroString = console.nextLine();
+        var entero = Integer.parseInt(enteroString);
+        System.out.println("Entero: " + entero);
+        
+        System.out.println("Valor tipo flotante");
+        var flotante = Float.parseFloat(console.nextLine());
+        /*Se asigna a la variable el valor del flotante que se escribe en String, pero
+        with parseFloat hace que se vuelva flotante*/
+        
+        System.out.println("Valor Flotante: " + flotante);
+        
     }
 }
