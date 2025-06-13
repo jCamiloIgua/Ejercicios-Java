@@ -20,5 +20,15 @@ public class FormateoCadenas {
         //Metodo printf
         System.out.printf("Nombre: %s, Edad: %d, Salario: $%.2f",
                 nombre,edad,salario);
+        
+        //Uso de bloque
+        //Es interesante se crea una variable con un buen texto dentro
+        mensaje = """
+                  %nDetalle Persona:\s
+                  ---------------------
+                  \tNombre: %s
+                  \tEdad: %d anios
+                  """.formatted(nombre,edad);
+        System.out.println(mensaje);
     }
 }
